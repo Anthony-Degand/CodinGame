@@ -10,8 +10,11 @@ document.getElementById("erreur").remove();
 //supprimer l'element avec l'id erreur
 
 //5
+//Exemple avec la méthode append :
+jQuery("body").append('<footer>© Copyright 2020 - Nom</footer>');
 
-const para = document.createElement("footer");
+
+/*const para = document.createElement("footer");
 
 const node = document.createTextNode("© Copyright 2020 - Nom");
 
@@ -23,6 +26,6 @@ const child = document.querySelector("erreur p");
 
 element.insertBefore (para,body);
 
-//faux
+//faux*/
 
 

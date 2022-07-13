@@ -5,6 +5,7 @@ $(document).ready(function () {
   });
 });
 
+
 //2
 $(document).ready(function () {
   $("#masquer-refrains").click(function () {
@@ -33,4 +34,6 @@ $(document).ready(function () {
     $(".contenu").css("display", "none");
   });
 });
+
+
 

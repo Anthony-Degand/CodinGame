@@ -1,13 +1,21 @@
-// Récupere la case "masquer les paroles"
-// const checkboxParoles = null ; // à compléter, ce code ne fonctionne pas
-   
+//1  masquer les paroles
 $(document).ready(function(){
     $("#masquer-paroles").click(function(){
         $("#paroles").toggle();
         $("#masquer-paroles").html("Afficher les paroles");
     });
-
   });
+
+//2
+$(document).ready(function(){
+  $("#masquer-refrains").click(function(){
+      $(".refrain").toggle();
+  });
+});
+
+$(".hidden").css("display","block");
+
+
 /*// Récupère le div contenant les paroles
 const divParoles = null; //
 

@@ -13,20 +13,18 @@ $(document).ready(function(){
   });
 });
 
-$(".hidden").css("display","block");
+/*$("label").append('<label><input type="checkbox" name="refrain" id="afficher-refrain"/> Afficher les refrains </label>');
 
+$(document).ready(function(){
+  $("#masquer-refrains").checked(function(){
+    $("#masquer-refrains").hide();
+      $("#masquer-refrains").replaceWith("#Afficher-refrains");
 
-/*// Récupère le div contenant les paroles
-const divParoles = null; //
+  });
+});
 
-// Attache une fonction à l'évènement "click" sur checkboxParoles
-checkboxParoles.addEventListener('click', function (event) {
-  // cette fonction est executée lorsque l'utilisateur clique sur checkboxParoles
-
-  // event.target contient l'élément cliqué (ici checkboxParoles dans notre cas)
-  if (event.target.checked) {
-    // la case vient d'être cochée
-  } else {
-    // la case vient d'être décochée
-  }
+$(document).ready(function(){
+  $("#afficher-refrains").checked(function(){
+      $("#masquer-refrains").replaceWith("#afficher-refrain");
+  });
 });*/

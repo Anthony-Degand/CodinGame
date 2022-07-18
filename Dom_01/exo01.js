@@ -3,7 +3,9 @@ document.querySelector("h1").innerHTML = "Rick Astley - Never Gonna Give You Up"
 //rempalcer le html de l'element h1 par se texte 
 
 //2
-
+$('p').each(function () {
+    $(this.firstChild).remove();
+    });
 //3
 
 //4

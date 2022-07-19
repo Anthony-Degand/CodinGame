@@ -7,9 +7,9 @@ $(document).ready(function () {
 
 //1 crée un id pour mes label
 
-$("label").remove();
+/*$("label").remove();
 
-$("body").append("<label for='check01'>Masquer les refrains</label> <input type='checkbox' name='check01' id='masquer-refrains'>")
+$("body").append("<label for='check01'>Masquer les refrains</label> <input type='checkbox' name='check01' id='masquer-refrains'>")*/
 
 /* input = document.getElementsByClassName("input");
 
@@ -28,7 +28,6 @@ $('#masquer-paroles').click(function() {
 $(document).ready(function () {
   $("#masquer-refrains").click(function () {
     $(".refrain .contenu").toggle();
-
 
     if ($("#masquer-refrains").is(":checked")) {
       $(".hidden").css("display", "inline");
